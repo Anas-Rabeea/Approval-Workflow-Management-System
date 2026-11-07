@@ -1,4 +1,4 @@
-<img width="1169" height="1657" alt="Approval Workflow Management flowchart" src="https://github.com/user-attachments/assets/5142d7c3-97ed-43c4-8ba9-9b99fa0ab98a" /># Approval-Workflow-Management-System
+# Approval-Workflow-Management-System
 
 ### Project Idea :
 In a company each employee have different requests to their managers , other departments .
@@ -11,4 +11,4 @@ Java 21 , Spring boot , Spring Data JPA using Hibernate , Spring Security ,Postg
 
 ### Basic Workflow flow chart and business logic :
 
-![Business Logic flow chart](docs/Approval Workflow Management flowchart.png)
+<img width="1169" height="1657" alt="Approval Workflow Management flowchart" src="https://github.com/user-attachments/assets/53776780-5e3e-495a-8e3f-4af07633e06c" />
