@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    name: postgres_db
+    # use localhost when deving , or falls back if env vars are present
+    url: jdbc:postgresql://localhost:${POSTGRES_DB_HOST_PORT:5432}/${POSTGRES_DB:app_db}
+    username: ${POSTGRES_USER:app_user}
+    password: ${POSTGRES_PASSWORD:app_password123!}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  data:
+    redis:
+      host: localhost
+      port: ${REDIS_HOST_PORT:6379}
+      password: ${REDIS_PASSWORD:redis_password123!}
+
+application:
+  name: approval-sys

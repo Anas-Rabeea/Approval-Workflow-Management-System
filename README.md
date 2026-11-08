@@ -12,3 +12,12 @@ Java 21 , Spring boot , Spring Data JPA using Hibernate , Spring Security ,Postg
 ### Basic Workflow flow chart and business logic :
 
 <img width="1169" height="1657" alt="Approval Workflow Management flowchart" src="https://github.com/user-attachments/assets/53776780-5e3e-495a-8e3f-4af07633e06c" />
+
+### Initial ERD For the project :
+Example using just one example type
+
+![ERD](docs/2.png)
+
+
+
+
